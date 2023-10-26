@@ -1,4 +1,4 @@
-const ServiceCard = ({ title, description, image }) => {
+const ServiceCard = ({ title, description, thumbnail }) => {
     return (
     <div className="w-[351px] h-[326px] relative">
     <div className="w-[351px] h-[122px] left-0 top-[204px] absolute bg-zinc-600 shadow">

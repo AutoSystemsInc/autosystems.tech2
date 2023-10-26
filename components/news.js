@@ -11,9 +11,9 @@ const News = () => {
             </div>
 
             <div className="self-stretch justify-between items-center inline-flex">
-            <NewsCard title="新サービスリリースのお知らせ" urlToImage="https://via.placeholder.com/352x247" date="2023/12/15" urlToOneNews="https://google.com"></NewsCard>
-            <NewsCard title="新サービスリリースのお知らせ" urlToImage="https://via.placeholder.com/352x247" date="2023/12/15" urlToOneNews="https://google.com"></NewsCard>
-            <NewsCard title="新サービスリリースのお知らせ" urlToImage="https://via.placeholder.com/352x247" date="2023/12/15" urlToOneNews="https://google.com"></NewsCard>
+            <NewsCard title="新サービスリリースのお知らせ" thumbnail="https://via.placeholder.com/352x247" date="2023/12/15" urlToOneNews="https://google.com"></NewsCard>
+            <NewsCard title="新サービスリリースのお知らせ" thumbnail="https://via.placeholder.com/352x247" date="2023/12/15" urlToOneNews="https://google.com"></NewsCard>
+            <NewsCard title="新サービスリリースのお知らせ" thumbnail="https://via.placeholder.com/352x247" date="2023/12/15" urlToOneNews="https://google.com"></NewsCard>
             </div>
 
             <a href="https::google.com">
