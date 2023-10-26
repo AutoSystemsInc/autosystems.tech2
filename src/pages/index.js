@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Layout from "components/layout"
 import Script from 'next/script'
 import Works from '../../components/works'
+import Service from '../../components/service'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +21,7 @@ export default function Home() {
 
 
     <Works></Works>
+    <Service></Service>
       {//<!-- Contact-->
       }
       <section className="page-section" id="contact">
