@@ -3,7 +3,7 @@ import NewsCard from "./news-card";
 const News = () => {
     return (
 
-        <div className="w-[1440px] h-[689px] px-[170px] py-[60px] flex-col justify-center items-center gap-[60px] inline-flex">
+        <div className="self-stretch h-[689px] px-[170px] py-[60px] flex-col justify-center items-center gap-[60px] inline-flex">
             <div className="self-stretch h-[83px] flex-col justify-center items-start gap-[5px] flex">
                 <div className="self-stretch text-black text-[40px] font-bold font-['Inter'] leading-[48px]">NEWS</div>
                 <div className="w-28 h-[25px] text-black text-base font-bold font-['Inter'] leading-[8px]">お知らせ</div>
