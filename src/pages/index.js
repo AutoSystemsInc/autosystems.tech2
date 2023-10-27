@@ -7,6 +7,7 @@ import Service from '../../components/service'
 import NewsCard from '../../components/news-card'
 import News from '../../components/news'
 import Top from '../../components/top'
+import AboutUs from '../../components/about-us'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +21,7 @@ export default function Home() {
         <Top></Top>
         <Works></Works>
         <Service></Service>
+        <AboutUs></AboutUs>
         <News></News>
         {//<!-- Contact-->
         }
