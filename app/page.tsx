@@ -2,12 +2,12 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Layout from "components/layout"
 import Script from 'next/script'
-import Works from '../components/works'
-import Service from '../components/service'
-import NewsCard from '../components/news-card'
-import News from '../components/news'
-import Top from '../components/top'
-import AboutUs from '../components/about-us'
+import Works from 'components/works'
+import Service from 'components/service'
+import NewsCard from 'components/news-card'
+import News from 'components/news'
+import Top from 'components/top'
+import AboutUs from 'components/about-us'
 
 const inter = Inter({ subsets: ['latin'] })
 

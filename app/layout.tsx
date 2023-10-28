@@ -5,7 +5,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 const App = ({ children }: { children: React.ReactNode }) => (
   <html lang="en">
-    <body className={inter.className}>{children}</body>
+    <body className={inter.className + "h-full"}>
+        {children}
+    </body>
   </html>
 );
 
