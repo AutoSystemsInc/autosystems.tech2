@@ -24,9 +24,18 @@ const Carousel2 = ({ sliders }: { sliders: string[] }) => {
         className={`flex transition ease-out duration-40`}
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
-          {sliders.map((s, index) =>
-            <img key={index} src={s} className="mr-12 w-3/12"/>
-          )}
+        {sliders.map((s, index) => {
+          return (
+            <div key={index} className="w-3/4">
+              <img
+                src={s}
+                className={`mr-16 flex-1
+              ${index == current ? "" : "opacity-50 pointer-events-auto"}
+              ${index == 0 ? "ml-30" : "ml-10"}`}
+              />
+            </div>
+          );
+        })}
       </div>
       <div className="absolute bottom-0 py-4 z-100 flex justify-center gap-3 w-full">
         {sliders.map((s, index) => {
