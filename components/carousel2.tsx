@@ -24,9 +24,9 @@ const Carousel2 = ({ sliders }: { sliders: string[] }) => {
         className={`flex transition ease-out duration-40`}
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
-          {sliders.map((s, index) => (
-            <img key={index} src={s} />
-          ))}
+          {sliders.map((s, index) =>
+            <img key={index} src={s} className="mr-12 w-3/12"/>
+          )}
       </div>
       <div className="absolute bottom-0 py-4 z-100 flex justify-center gap-3 w-full">
         {sliders.map((s, index) => {
