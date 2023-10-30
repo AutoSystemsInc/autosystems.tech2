@@ -11,7 +11,13 @@ const Works = () => (
       </div>
       <div className="w-[110px] h-[0px] border-4 border-black"></div>
     </div>
-    <div className="justify-center items-start gap-10 inline-flex">
+    <div className="relative w-[1440px] flex gap-20 snap-x overflow-x-auto pb-14">
+		
+      <WorksCard
+        url=""
+        title="test1"
+        thumbnail="https://via.placeholder.com/400x298"
+      ></WorksCard>
       <WorksCard
         url=""
         title="NP4G: 一般化のためのネットワーク<br/>プログラミング"
