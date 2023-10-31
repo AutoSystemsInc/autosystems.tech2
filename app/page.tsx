@@ -66,8 +66,7 @@ const Home = () => (
       <main
         className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
       >
-        <div className="w-[1440px] h-[4864px] bg-zinc-100 flex-col justify-start items-center inline-flex">
-          <Carousel2 sliders={sliders} />
+        <div className="w-[1440px] bg-zinc-100 flex-col justify-start items-center inline-flex">
           <Top></Top>
           <Works></Works>
           <Service></Service>
