@@ -13,11 +13,12 @@ const Works = () => (
       <div className="w-28 h-px border-4 border-black"></div>
     </div>
 
-    <div className="overflow-x-hidden self-stretch">
-        <div className="justify-items-start gap-10 flex flex-1 overflow-x-scroll">
-          <div className="opacity-50 flex-col justify-start items-center gap-2.5">
+    <div className="w-[1140px] text-black">
+      <ScrollContainer>
+        <div className="flex gap-x-10">
+          <div className="flex-col">
             <img
-              className="w-96 h-72 shadow"
+              className="w-96 h-72 drop-shadow-md"
               src="https://via.placeholder.com/400x298"
             />
             <div className="w-96 text-black text-xl font-bold font-['Inter'] leading-7">
@@ -25,9 +26,29 @@ const Works = () => (
             </div>
           </div>
 
-          <div className="opacity-50 flex-col justify-start items-center gap-2.5">
+          <div className="flex-col">
             <img
-              className="w-96 h-72 shadow"
+              className="w-96 h-72 drop-shadow-md"
+              src="https://via.placeholder.com/400x298"
+            />
+            <div className="w-96 text-black text-xl font-bold font-['Inter'] leading-7">
+              キャプションキャプションキャプションキャプションキャプション
+            </div>
+          </div>
+
+          <div className="flex-col">
+            <img
+              className="w-96 h-72 drop-shadow-md"
+              src="https://via.placeholder.com/400x298"
+            />
+            <div className="w-96 text-black text-xl font-bold font-['Inter'] leading-7">
+              キャプションキャプションキャプションキャプションキャプション
+            </div>
+          </div>
+
+          <div className="flex-col">
+            <img
+              className="w-96 h-72 drop-shadow-md"
               src="https://via.placeholder.com/400x298"
             />
             <div className="w-96 text-black text-xl font-bold font-['Inter'] leading-7">
@@ -37,43 +58,17 @@ const Works = () => (
             </div>
           </div>
 
-          <div className="opacity-50 flex-col justify-start items-center gap-2.5">
+          <div className="flex-col">
             <img
-              className="w-96 h-72 shadow"
+              className="w-96 h-72 drop-shadow-md"
               src="https://via.placeholder.com/400x298"
             />
             <div className="w-96 text-black text-xl font-bold font-['Inter'] leading-7">
               next.jsブログエディタ
             </div>
           </div>
-          <div className="opacity-50 flex-col justify-start items-center gap-2.5">
-            <img
-              className="w-96 h-72 shadow"
-              src="https://via.placeholder.com/400x298"
-            />
-            <div className="w-96 text-black text-xl font-bold font-['Inter'] leading-7">
-              商品比較サイト
-            </div>
-          </div>
-          <div className="opacity-50 flex-col justify-start items-center gap-2.5">
-            <img
-              className="w-96 h-72 shadow"
-              src="https://via.placeholder.com/400x298"
-            />
-            <div className="w-96 text-black text-xl font-bold font-['Inter'] leading-7">
-              商品比較サイト
-            </div>
-          </div>
-          <div className="opacity-50 flex-col justify-start items-center gap-2.5">
-            <img
-              className="w-96 h-72 shadow"
-              src="https://via.placeholder.com/400x298"
-            />
-            <div className="w-96 text-black text-xl font-bold font-['Inter'] leading-7">
-              商品比較サイト
-            </div>
-          </div>
         </div>
+      </ScrollContainer>
     </div>
   </div>
 );
