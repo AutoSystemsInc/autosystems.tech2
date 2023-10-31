@@ -1,5 +1,5 @@
-import WorksCard from "./works-card";
 import ScrollContainer from "react-indiana-drag-scroll";
+import WorksCard from "./works-card";
 
 const Works = () => (
   <div className="self-stretch px-44 py-14 bg-zinc-100 flex-col justify-center items-center gap-14 flex">

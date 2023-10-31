@@ -1,6 +1,3 @@
-import AboutUsTitle from "./about-us-title";
-import AboutUsDescription from "./about-us-description";
-
 const AboutUs = () => (
   <div className="h-[911px] px-[170px] py-[60px] bg-neutral-50 flex-col justify-center items-center gap-[60px] inline-flex">
     <div className="self-stretch h-[83px] flex-col justify-center items-start gap-[5px] flex">
