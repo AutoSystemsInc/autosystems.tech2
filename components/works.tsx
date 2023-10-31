@@ -16,57 +16,29 @@ const Works = () => (
     <div className="w-[1140px] text-black">
       <ScrollContainer>
         <div className="flex gap-x-10">
-          <div className="flex-col">
-            <img
-              className="w-96 h-72 drop-shadow-md"
-              src="https://via.placeholder.com/400x298"
-            />
-            <div className="w-96 text-black text-xl font-bold font-['Inter'] leading-7">
-              キャプションキャプションキャプションキャプションキャプション
-            </div>
-          </div>
+          <WorksCard
+            url="https://google.com/"
+            thumbnail="https://via.placeholder.com/400x298"
+            title="キャプションキャプションキャプションキャプションキャプション"
+          ></WorksCard>
 
-          <div className="flex-col">
-            <img
-              className="w-96 h-72 drop-shadow-md"
-              src="https://via.placeholder.com/400x298"
-            />
-            <div className="w-96 text-black text-xl font-bold font-['Inter'] leading-7">
-              キャプションキャプションキャプションキャプションキャプション
-            </div>
-          </div>
+          <WorksCard
+            url="https://google.com/"
+            thumbnail="https://via.placeholder.com/400x298"
+            title="キャプションキャプションキャプションキャプションキャプション"
+          ></WorksCard>
 
-          <div className="flex-col">
-            <img
-              className="w-96 h-72 drop-shadow-md"
-              src="https://via.placeholder.com/400x298"
-            />
-            <div className="w-96 text-black text-xl font-bold font-['Inter'] leading-7">
-              キャプションキャプションキャプションキャプションキャプション
-            </div>
-          </div>
+          <WorksCard
+            url="https://google.com/"
+            thumbnail="https://via.placeholder.com/400x298"
+            title="キャプションキャプションキャプションキャプションキャプション"
+          ></WorksCard>
 
-          <div className="flex-col">
-            <img
-              className="w-96 h-72 drop-shadow-md"
-              src="https://via.placeholder.com/400x298"
-            />
-            <div className="w-96 text-black text-xl font-bold font-['Inter'] leading-7">
-              NP4G: 一般化のためのネットワーク
-              <br />
-              プログラミング
-            </div>
-          </div>
-
-          <div className="flex-col">
-            <img
-              className="w-96 h-72 drop-shadow-md"
-              src="https://via.placeholder.com/400x298"
-            />
-            <div className="w-96 text-black text-xl font-bold font-['Inter'] leading-7">
-              next.jsブログエディタ
-            </div>
-          </div>
+          <WorksCard
+            url="https://google.com/"
+            thumbnail="https://via.placeholder.com/400x298"
+            title="キャプションキャプションキャプションキャプションキャプション"
+          ></WorksCard>
         </div>
       </ScrollContainer>
     </div>
