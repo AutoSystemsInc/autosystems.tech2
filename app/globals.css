@@ -37,15 +37,6 @@ body {
   }
 }
 
-@keyframes text-glow {
-  0%, 100% {
-    filter: brightness(1);
-  }
-  50% {
-    filter: brightness(2);
-  }
-}
-
 @keyframes text-color-change {
   0%, 100% {
     color: black; /* 元の色 */
