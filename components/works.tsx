@@ -1,6 +1,7 @@
 import ScrollContainer from "react-indiana-drag-scroll";
 import WorksCard from "./works-card";
 import React, { useState, useEffect } from "react";
+import Heading from "./heading";
 
 const Works = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -25,17 +26,7 @@ const Works = () => {
   return (
     <div className="self-stretch px-44 py-14 bg-zinc-100 flex-col justify-center items-center gap-14 flex">
       <div className="self-stretch h-20 flex-col justify-center items-start gap-1 flex">
-        <div
-          id="works"
-          className={isVisible ? "animate-glow text-red-900 " : ""}
-        >
-          <div className="self-stretch text-4xl font-bold font-['Inter'] leading-10">
-            WORKS
-          </div>
-          <div className="w-16 h-6 text-base font-bold font-['Inter'] leading-3">
-            制作実績
-          </div>
-        </div>
+        <Heading id="works" title="WORKS" subtitle="制作実績"></Heading>
         <div className="w-28 h-px border-4 border-black"></div>
       </div>
 
