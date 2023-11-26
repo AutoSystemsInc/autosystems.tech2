@@ -32,40 +32,16 @@ const Heading = ({
   }, []);
 
   return (
-    <div id={id}>
-      <div
-        className={
-          "self-stretch text-[40px] font-bold font-['Inter'] leading-[48px]"
-        }
-      >
-        {splitTitle.map((char, index) => (
-          <span
-            key={index}
-            className={
-              isVisible ? `animate-color-change delay-${index}` : "text-black"
-            }
-          >
-            {char}
-          </span>
-        ))}
-      </div>
+    <div
+      id={id}
+      className={
+        "text-black font-bold font-['Inter'] " +
+        (isVisible ? "animate-color-change" : "")
+      }
+    >
+      <div className={"self-stretch text-[40px] leading-[48px]"}>{title}</div>
 
-      <div
-        className={
-          "w-28 h-[25px] text-base font-bold font-['Inter'] leading-[8px]"
-        }
-      >
-        {splitSubtitle.map((char, index) => (
-          <span
-            key={index}
-            className={
-              isVisible ? `animate-color-change delay-${index}` : "text-black"
-            }
-          >
-            {char}
-          </span>
-        ))}
-      </div>
+      <div className={"w-28 h-[25px] text-base leading-[8px]"}>{subtitle}</div>
     </div>
   );
 };

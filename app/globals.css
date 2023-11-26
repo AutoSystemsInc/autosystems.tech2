@@ -51,6 +51,6 @@ body {
     color: black; /* 元の色 */
   }
   50% {
-    color: red; /* 変化する色 */
+    color: cornflowerblue; /* 変化する色 */
   }
 }
