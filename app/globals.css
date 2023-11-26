@@ -45,3 +45,12 @@ body {
     filter: brightness(2);
   }
 }
+
+@keyframes text-color-change {
+  0%, 100% {
+    color: black; /* 元の色 */
+  }
+  50% {
+    color: red; /* 変化する色 */
+  }
+}

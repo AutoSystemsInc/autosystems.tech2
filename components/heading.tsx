@@ -11,6 +11,8 @@ const Heading = ({
   subtitle: string;
 }) => {
   const [isVisible, setIsVisible] = useState(false);
+  const splitTitle = title.split(" ");
+  const splitSubtitle = subtitle.split(" ");
 
   const checkVisibility = () => {
     const elem = document.getElementById(id);
@@ -30,12 +32,39 @@ const Heading = ({
   }, []);
 
   return (
-    <div id={id} className={isVisible ? "animate-glow text-red-900" : "text-transparent"}>
-      <div className="self-stretch text-[40px] font-bold font-['Inter'] leading-[48px]">
-        {title}
+    <div id={id}>
+      <div
+        className={
+          "self-stretch text-[40px] font-bold font-['Inter'] leading-[48px]"
+        }
+      >
+        {splitTitle.map((char, index) => (
+          <span
+            key={index}
+            className={
+              isVisible ? `animate-color-change delay-${index}` : "text-black"
+            }
+          >
+            {char}
+          </span>
+        ))}
       </div>
-      <div className="w-28 h-[25px] text-base font-bold font-['Inter'] leading-[8px]">
-        {subtitle}
+
+      <div
+        className={
+          "w-28 h-[25px] text-base font-bold font-['Inter'] leading-[8px]"
+        }
+      >
+        {splitSubtitle.map((char, index) => (
+          <span
+            key={index}
+            className={
+              isVisible ? `animate-color-change delay-${index}` : "text-black"
+            }
+          >
+            {char}
+          </span>
+        ))}
       </div>
     </div>
   );

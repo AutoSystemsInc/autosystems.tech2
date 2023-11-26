@@ -16,7 +16,17 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       animation: {
-        'glow': 'text-glow 5s ease-in-out',
+        'glow': 'text-glow 1.5s ease-in-out',
+        'color-change': 'text-color-change 2s ease-in-out',
+      },
+      animationDelay: {
+        '0': '0.5s',
+        '1': '1s',
+        '2': '1.5s',
+        '3': '2s',
+        '4': '2.5s',
+        '5': '3s',
+        '6': '3.5s',
       },
     },
   },
