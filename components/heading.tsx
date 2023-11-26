@@ -30,7 +30,7 @@ const Heading = ({
   }, []);
 
   return (
-    <div id={id} className={isVisible ? "animate-glow text-red-900 " : ""}>
+    <div id={id} className={isVisible ? "animate-glow text-red-900" : "text-transparent"}>
       <div className="self-stretch text-[40px] font-bold font-['Inter'] leading-[48px]">
         {title}
       </div>
