@@ -30,7 +30,7 @@ const News = () => (
     </div>
 
     <a href="https::google.com">
-      <div className="px-10 py-[15px] rounded-[10px] border-2 border-black justify-center items-center gap-2.5 inline-flex">
+      <div className="px-10 py-[15px] rounded-[10px] border-2 border-black justify-center items-center gap-2.5 inline-flex bg-gradient-to-r from-green-200 to-blue-200 hover:from-pink-300 hover:to-yellow-300">
         <div className="text-right text-black text-xl font-normal font-['Inter'] leading-7">
           すべてのお知らせを見る
         </div>
