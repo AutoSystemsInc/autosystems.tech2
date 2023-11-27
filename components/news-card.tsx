@@ -9,7 +9,7 @@ const NewsCard = ({
   thumbnail: string;
   date: string;
 }) => (
-  <div className="w-[352px] h-[313px] flex-col justify-center items-start gap-[15px] inline-flex">
+  <div className="transition hover:opacity-50 w-[352px] h-[313px] flex-col justify-center items-start gap-[15px] inline-flex">
     <a href={urlToOneNews}>
       <img
         className="self-stretch grow shrink basis-0 shadow"
