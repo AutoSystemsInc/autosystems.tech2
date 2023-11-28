@@ -41,7 +41,7 @@ const Heading = ({
       id={id}
       className={
         "text-black font-bold font-['Inter'] " +
-        (isVisible ? "wow fadeInUp animate__animated animate__fadeInUp": "text-transparent")
+        (isVisible ? "wow fadeInLeft animate__animated animate__fadeInLeft": "text-transparent")
       }
     >
       <div className={"self-stretch text-[40px] leading-[48px]"}>{title}</div>
