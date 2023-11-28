@@ -11,14 +11,19 @@ const Heading = ({
   subtitle: string;
 }) => {
   const [isVisible, setIsVisible] = useState(false);
-  const splitTitle = title.split(" ");
-  const splitSubtitle = subtitle.split(" ");
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+        const WOW = require('/app/wow.js');
+        new WOW.WOW().init();
+    }
+  }, []);
 
   const checkVisibility = () => {
     const elem = document.getElementById(id);
     const rect = elem?.getBoundingClientRect();
     const isNowVisible =
-      !isVisible && rect?.top! >= 0 && rect?.bottom! <= window.innerHeight / 2;
+      !isVisible && rect?.top! >= 0 && rect?.bottom! <= window.innerHeight;
     if (isNowVisible) {
       setIsVisible(true);
       console.log("visible");
@@ -36,7 +41,7 @@ const Heading = ({
       id={id}
       className={
         "text-black font-bold font-['Inter'] " +
-        (isVisible ? "animate-color-change" : "")
+        (isVisible ? "wow fadeInUp animate__animated animate__fadeInUp": "text-transparent")
       }
     >
       <div className={"self-stretch text-[40px] leading-[48px]"}>{title}</div>
