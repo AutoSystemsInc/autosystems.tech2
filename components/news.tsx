@@ -3,7 +3,7 @@ import Heading from "./heading";
 
 const News = () => (
   <div className="self-stretch h-[689px] px-[170px] py-[60px] flex-col justify-center items-center gap-[60px] inline-flex">
-    <div className="self-stretch h-[83px] flex-col justify-center items-start gap-[5px] flex">
+    <div className="self-stretch h-[83px] flex-col justify-center items-start gap-[5px] flex" id="news">
       <Heading id="newsHeading" title="NEWS" subtitle="お知らせ"></Heading>
       <div className="w-[110px] h-[0px] border-4 border-black"></div>
     </div>

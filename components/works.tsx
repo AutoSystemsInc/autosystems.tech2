@@ -4,7 +4,7 @@ import Heading from "./heading";
 
 const Works = () => {
   return (
-    <div className="self-stretch px-44 py-14 bg-zinc-100 flex-col justify-center items-center gap-14 flex">
+    <div className="self-stretch px-44 py-14 bg-zinc-100 flex-col justify-center items-center gap-14 flex" id="works">
       <div className="self-stretch h-20 flex-col justify-center items-start gap-1 flex">
         <Heading id="worksHeading" title="WORKS" subtitle="制作実績"></Heading>
         <div className="w-28 h-px border-4 border-black"></div>

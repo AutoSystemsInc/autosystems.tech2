@@ -1,7 +1,7 @@
 import Heading from "./heading";
 
 const AboutUs = () => (
-  <div className="h-[911px] px-[170px] py-[60px] bg-neutral-50 flex-col justify-center items-center gap-[60px] inline-flex">
+  <div className="h-[911px] px-[170px] py-[60px] bg-neutral-50 flex-col justify-center items-center gap-[60px] inline-flex" id="about">
     <div className="self-stretch h-[83px] flex-col justify-center items-start gap-[5px] flex">
       <Heading id="aboutUsHeading" title="ABOUT US" subtitle="会社概要"></Heading>
       <div className="w-[110px] h-[0px] border-4 border-black"></div>
