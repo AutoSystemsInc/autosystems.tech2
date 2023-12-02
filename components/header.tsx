@@ -4,11 +4,11 @@ import logo from "/public/AUTO DemoLogo.png";
 
 const Header = () => {
   const navList = [
-    { nav: "制作実績", link: "/" },
-    { nav: "事業・サービス", link: "/" },
-    { nav: "会社概要", link: "/" },
-    { nav: "お知らせ", link: "/" },
-    { nav: "お問い合わせ", link: "/" },
+    { nav: "制作実績", link: "/#works" },
+    { nav: "事業・サービス", link: "/#service" },
+    { nav: "会社概要", link: "/#about" },
+    { nav: "お知らせ", link: "/#news" },
+    { nav: "お問い合わせ", link: "/#contact" },
   ];
   return (
     <header className="w-1/2 h-20 ml-4">

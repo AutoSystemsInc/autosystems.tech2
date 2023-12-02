@@ -46,3 +46,7 @@ body {
     color: cornflowerblue; /* 変化する色 */
   }
 }
+
+html{
+ scroll-behavior: smooth;
+}
