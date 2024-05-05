@@ -9,9 +9,9 @@ import Top from "components/top";
 import Works from "components/works";
 import { Inter } from "next/font/google";
 import Script from "next/script";
-import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
-import EmblaCarousel from "components/embla-carousel";
-import Carousel2 from "components/carousel2";
+//import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
+//import EmblaCarousel from "components/embla-carousel";
+//import Carousel2 from "components/carousel2";
 
 const inter = Inter({ subsets: ["latin"] });
 
