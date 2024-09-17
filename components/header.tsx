@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "/public/AUTO DemoLogo.png";
+import logo from "/public/AutoSystemsLogo.jpg";
 
 const Header = () => {
   const navList = [
     { nav: "制作実績", link: "/#works" },
     { nav: "事業・サービス", link: "/#service" },
     { nav: "会社概要", link: "/#about" },
-    { nav: "お知らせ", link: "/#news" },
+    //{ nav: "お知らせ", link: "/#news" },
     { nav: "お問い合わせ", link: "/#contact" },
   ];
   return (

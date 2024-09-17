@@ -71,7 +71,7 @@ const Home = () => (
           <Works></Works>
           <Service></Service>
           <AboutUs></AboutUs>
-          <News></News>
+          {/*<News></News>*/}
           {
             //<!-- Contact-->
           }
