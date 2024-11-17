@@ -16,7 +16,7 @@ const Works = () => {
             <WorksCard
               url="https://google.com/"
               thumbnail="https://via.placeholder.com/400x298"
-              title="キャプションキャプションキャプションキャプションキャプション"
+              title="協力事例"
             ></WorksCard>
 
             <WorksCard
